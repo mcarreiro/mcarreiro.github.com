@@ -1,0 +1,141 @@
+html, body {
+	height:100%;
+	margin:0pt;
+	padding:0pt;
+	width:100%;
+}
+h1, h2, h3, ul, li, p {
+	font-family: 'Trebuchet MS', Helvetica;
+	margin: 0;
+}
+body {
+	font-family:verdana,arial,sans-serif;
+	font-size:76%;
+}
+#background {
+	height:3000px;
+	position:fixed;
+	z-index:-1;
+}
+.leftbar {
+	width: 20%;
+	min-width: 214px;
+	background: #0087E1;
+}
+
+#container {
+	min-width: 1024px;
+}
+#header {
+	height: auto;
+	position:fixed;
+	width:100%;
+	min-width: 1024px;
+}
+#header-logo {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+#header-logo-name {
+	height: 58px;
+	float: left;
+	text-align: right;
+	color: #FFFFFF;
+}
+#header-logo-name img {
+	margin: 5px 10px 0 0;
+}
+#header-logo-lastname {
+	width: 70%;
+	height: 58px;
+	background: #FFFFFF;
+	float: left;
+	color: #0087E1;
+}
+#header-logo-lastname img {
+	margin: 5px 0 0 10px;
+}
+#header-info {
+	height: 90px;
+}
+#header-info-contact {
+	float: left;
+	height: 100%;
+}
+#header-info-contact p {
+	font-size: 11pt;
+	text-align: right;
+	color: #E6E6E6;
+	padding: 10px;
+}
+#header-info-contact a {
+	text-decoration: none;
+	color: #E6E6E6;
+}
+#header-info-contact a:hover {
+	text-decoration: underline;
+}
+#header-info-summary {
+	width: 70%;
+	height: 100%;
+	background: #FFFFFF;
+	float: left;
+}
+#header-info-summary h1 {
+	font-size: 13pt;
+	padding: 10px;
+}
+#header-info-summary p {
+	width: 600px;
+	padding-left: 10px;
+}
+
+#bodier {
+	width: 100%;
+	padding-top: 200px;
+}
+
+.box {
+	width: 100%;
+	clear: both;
+	margin-bottom: 25px;
+}
+.box-title {
+	float: left;
+	width: 20%;
+}
+.box-title h2 {
+	color: white;
+	font-size:15pt;
+	text-align: right;
+	margin-right: 10px;
+}
+.box-content {
+	float: left;
+	width: 70%;
+}
+.box-content-item {
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+.box-content-item h3 {
+	font-size: 12pt;
+	float: left;
+	color: #0087E1;
+}
+.box-content-item-date {
+	float: left;
+	padding-left: 10px;
+	color: #5E5E5E;
+}
+.box-content-item-content {
+	clear: both;
+	font-size: 11pt;
+	color: #3D3D3D;
+}
+.break {
+	clear:both;
+	width: 100%;
+	height: 30px;
+}
