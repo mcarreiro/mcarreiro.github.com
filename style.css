@@ -17,12 +17,12 @@ img{
 	z-index: 1;
 }
 .perfil{
-	margin: 3%;
+	margin: 40px;
 	padding: 5px;
 	z-index: 10;
 	background: #c6c6c6;
 	line-height: 0em;
-	margin-left: 3%;
+	margin-left: 35px;
 	margin-top: -2%;
 	float: left;
 }
@@ -56,9 +56,9 @@ img{
 }
 
 .items{
-	margin-top: 15%;
-	margin-right: 17%;
-	float: right;
+	margin-top: 180px;
+	margin-left: 330px;
+	float: left;
 }
 
 .titulo-item{
