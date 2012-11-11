@@ -7,6 +7,11 @@ body{
 img{
 	display:inline;
 }
+a{
+	color:white;
+	text-decoration:none;
+
+}
 .header-carpet{
 	background-image:url('texture.png');
 	background-repeat:repeat;
